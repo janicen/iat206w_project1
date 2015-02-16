@@ -6,8 +6,6 @@
 
 	CSS file: Main Style
 
-	1.Base  2.Grid  3.Layout  4.Links  5.IndexPage  6.AboutPage  7.WorksPage
-
 */
 
 
@@ -76,8 +74,6 @@ img {
 .container {
 	max-width: 1280px;
 	margin: 0em auto;
-	overflow: hidden;
-	border: 1px solid orange;
 }
 
 /* ================================================================ 
@@ -93,23 +89,17 @@ img {
 /* ========== CONTENT ========== */
 
 .intro {
-	position: fixed;
 	text-align: center;
 	max-width: 1200px;
 	padding: 3em;
 	margin: 4em;
-	display: block;
-	z-index: -1;
 	overflow: hidden;
-
-	border: 1px solid orange;
 }
 
 .sections {
 	text-align: center;
-	/*display: inline-block;*/
-	font-size: 2em;
-	margin-top: 2em;
+	font-size: 1.5em;
+	margin-top: 3em;
 }
 
 	.imagewrapper {
@@ -126,11 +116,14 @@ img {
 
 .top {
 	text-align: center;
-	margin-right: 3em;
 	font-size: 1.2em
 }
 
-.images p {
+.home {
+	font-size: 1.2em
+}
+
+.images p, .videos p {
 	text-align: center;
 	font-size: 1em;
 }
