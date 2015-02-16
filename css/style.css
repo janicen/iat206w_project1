@@ -57,6 +57,7 @@ img {
 	p {
 		font-size: 1em;
 		line-height: 150%;
+		padding-bottom: 1.5em;
 	}
 
 /* ================================================================ 
@@ -107,6 +108,7 @@ img {
 	}
 
 	.images, .videos {
+		text-align: center;
 		margin: 2em 0;
 	}
 
